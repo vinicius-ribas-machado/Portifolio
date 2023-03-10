@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-color: rgb(13, 13, 13);
+    color: #c2b4b4;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#desenvolvedo{
+    margin: 20px;
+    font-size: 2em;
+    color: #fff;
+}
+
+#home{
+    
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+
+button{
+    border: none;
+    background: none; 
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    color: aliceblue;
+    padding-left: 35px;  
+    font-size: x-large;  
+}
+
+.btnHead:hover{
+    border-bottom: 2px solid #fff;
+}
+ 
+.btnHead1:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.btnHead2:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    margin-top: 200px;
+}
+
+.texto {
+    flex: 1;
+    padding-right: 20px;
+    
+}
+
+.imagem img {
+    width: 100%;
+    height: auto; 
+    float: right;
+}
+
+
+#skilss{
+    text-align: center;
+    margin: 120px;
+    background-color: rgb(48, 46, 46);
+    border-radius: 20px;
+    box-shadow: 4px 5px 8px rgb(216, 59, 77);
+}
+
+#imgSkill{
+    margin: 20px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#lorem{
+    text-align: center;
+    margin: 90px; 
+    margin-top: 0;
+}
+
+#h2{
+    text-align: center;
+    margin: 30px;
+    color: #fff;
+}
+
+hr{
+    border-color: rgb(70, 73, 65);
+}
+
+
+#iconPJ{
+    border-radius: 30px;
+    width: 300px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+
+#iconPJ:hover{
+    transform:scale(1.1);
+    z-index: 3;
+}
+
+
+#inputsRD input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#teste {
+    border: none;
+    animation: none;
+    outline: unset;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#teste2 {
+    border: none;
+    animation: none;
+    outline: unset;
+    border-radius: 5px;
+    height: 78px;
+}
+
+#container{
+    background-color: #252121;
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 4px 5px 8px rgb(216, 59, 77);
+}
+
+#redes {
+    width: 50%;
+}
+
+
+#little{
+    width: 50px;
+    height: 50px;
+    margin-right:20px ;
+}
+
+#littler{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+}
+
+#cv {
+    background-color: rgb(192, 15, 44);
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 30px;
+}
+
+
+
+#inputsRD input {
+    margin-bottom: 10px;
+}
+
+#inputsRD {
+    text-align: right;
+}
+
+
+
+#enviarRD{
+    background-color: rgb(192, 15, 44);
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
